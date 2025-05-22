@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Шифрование</title>
+
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 </head>
 <body>
-    <section class="up">
-        <h1>Шифрование текста ROT13</h1>
-        <button onclick="process()">Зашифровать</button>
-    </section>
-    
-    <section class="shifr">
-        <textarea id="inputT" rows="20"></textarea>
-        <div class="result" id="output"></div>
-    </section>
+    <header>
 
-    <script src="script.js"></script>
+    </header>
+
+    <main>
+        <div class="up">
+            <h1>Шифрование текста ROT13</h1>
+            <button onclick="process()">Зашифровать</button>
+        </div>
+        
+        <div class="cipher">
+            <textarea id="inputT" rows="20"></textarea>
+            <div class="result" id="output"></div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
 </body>
 </html>
